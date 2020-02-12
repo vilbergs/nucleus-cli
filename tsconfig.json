@@ -31,5 +31,6 @@
         "resolveJsonModule": true,
         "target": "esnext"
     },
-    "include": ["./**/*.ts"]
+    "include": ["./**/*.ts"],
+    "exclude": ["./template/*"]
 }
