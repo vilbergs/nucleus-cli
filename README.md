@@ -1,2 +1,2 @@
 # nucleus-cli
-An atomic design component generator.
+An atomic component generator.
