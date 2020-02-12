@@ -5,7 +5,7 @@ import { writeFileStrSync, walkSync, readFileStrSync } from 'https://deno.land/s
  * TODO:
  * 
  * - Make Component directory if it doesn't exist
- * - Allow cli flags
+ * - Allow module name input as cli flag
  */
 Deno.mkdirSync('./src/Atoms', true)
 
