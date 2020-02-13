@@ -8,7 +8,7 @@ An atomic component generator.
 
 ## Installing
 
-`$ deno install --allow-write --allow-read --dir /usr/local/bin nucleus https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/index.ts`
+`$ deno install --allow-write --allow-read --dir /usr/local/bin nucleus https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts`
 
 ## How to use
 
