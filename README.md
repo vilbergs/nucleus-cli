@@ -2,6 +2,8 @@
 
 An atomic component generator.
 
+Issues and PR's Welcome
+
 ## Requirements
 
 - [Deno](https://deno.land/)
