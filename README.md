@@ -12,7 +12,7 @@ An atomic component generator.
 
 ## How to use
 
-Run `$ deno --allow-write --allow-read ./index.ts -t [atom | molecule | organism] -m MyAtomicComponent`
+`$ deno -t [atom | molecule | organism] -m MyAtomicComponent`
 
 - **-t**:  The component type, either "atom", "molecule" or "organism"
 - **-m**: The component name
