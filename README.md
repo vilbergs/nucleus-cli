@@ -6,6 +6,10 @@ An atomic component generator.
 
 - [Deno](https://deno.land/)
 
+## Installing
+
+`$ deno install --allow-write --allow-read --dir /usr/local/bin nucleus https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/index.ts`
+
 ## How to use
 
 Run `deno --allow-write --allow-read ./index.ts -t [atom | molecule | organism] -m MyAtomicComponent`

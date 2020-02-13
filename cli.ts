@@ -2,20 +2,6 @@ const { args } = Deno
 import { parse } from "https://deno.land/std/flags/mod.ts";
 import { writeFileStrSync, walkSync, readFileStrSync } from 'https://deno.land/std/fs/mod.ts'
 
-
-/**
- * TODO:
- * 
- * - Make Component directory if it doesn't exist
- * - Allow module name input as cli flag
- */
-enum ComponentType {
-    Atom = 'atom',
-    Molecule = 'molecule',
-    Organism = 'organism'
-}
-
-
 const { t: componentType = 'atom', m: moduleName = 'NewComponent' } = parse(args)
 
 const typeToDirectoryMap = {
