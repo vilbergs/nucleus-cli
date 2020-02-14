@@ -26,3 +26,5 @@ for (const { filename, info } of walkSync(`${__dirname}/template`)) {
         writeFileStrSync(`${workingDir}/src/${typeToDirectoryMap[componentType]}/${moduleName}/${newFilename}`, newFileString)
     }
 }
+
+console.log(`✅ Successfully created ${moduleName}`)

@@ -10,11 +10,24 @@ Issues and PR's Welcome
 
 ## Installing
 
-`$ deno install --allow-write --allow-read --dir /usr/local/bin nucleus https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts`
+```bash
+  $ deno install --allow-write --allow-read --dir /usr/local/bin nucleus https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+
+  // ✅ Successfully installed nucleus
+```
 
 ## How to use
 
-`$ deno -t [atom | molecule | organism] -m MyAtomicComponent`
+The CLI takes 2 arguments; the type of module and the name of it.
 
-- **-t**:  The component type, either "atom", "molecule" or "organism"
-- **-m**: The component name
+```bash
+    $ nucleus [atom | molecule | organism] MyAtomicComponent
+
+    // ✅ Successfully created MyAtomicComponent
+```
+
+**Example:**
+
+`$ nucleus atom BrandNewAtom`
+
+This will create ./src/Atoms/BrandNewAtom in your working directory.
