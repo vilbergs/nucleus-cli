@@ -28,17 +28,14 @@ The CLI takes 2 arguments; the type of module and the name of it.
 
 **Example:**
 
-`$ nucleus atom BrandNewAtom`
+`$ nucleus atom Button`
 
-This will create ./src/Atoms/BrandNewAtom in your working directory.
+This will create ./src/Atoms/Button in your working directory.
 
-./src
-+-- BrandNewAtom
-|   +-- BrandNewAtom.stories.mdx
-|   +-- BrandNewAtom.test.tsx
-|   +-- BrandNewAtom.tsx
-|   +-- index.ts
-
-## Why Deno?
-
-
+```bash
+├── Button
+│   ├── Button.stories.mdx
+│   ├── Button.test.tsx
+│   ├── Button.tsx
+│   └── index.ts
+```
