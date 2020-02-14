@@ -37,9 +37,11 @@ The CLI takes 2 arguments; the type of module and the name of it.
 This will create ./src/Atoms/Button in your working directory.
 
 ```bash
-├── Button
-│   ├── Button.stories.mdx
-│   ├── Button.test.tsx
-│   ├── Button.tsx
-│   └── index.ts
+./src
+├── Atoms
+│   ├── Button
+│   │   ├── Button.stories.mdx
+│   │   ├── Button.test.tsx
+│   │   ├── Button.tsx
+│   │   └── index.ts
 ```
