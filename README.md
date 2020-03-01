@@ -6,7 +6,7 @@ Issues and PR's Welcome
 
 ## Requirements
 
-- [Deno](https://deno.land/)
+-   [Deno](https://deno.land/)
 
 ## Installing
 
@@ -45,3 +45,8 @@ This will create ./src/Atoms/Button in your working directory.
 │   │   ├── Button.tsx
 │   │   └── index.ts
 ```
+
+## Philosophy
+
+The ultimate goal of nucleus is to provide a single, simple to use executable for generating components from string templates.
+At some point I would like the templates to be configurable but the previous must always be true.
