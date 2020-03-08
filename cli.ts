@@ -1,10 +1,11 @@
-import { parse } from 'https://deno.land/std/flags/mod.ts'
-import { writeFileStrSync, existsSync } from 'https://deno.land/std/fs/mod.ts'
+import { parse } from 'https://deno.land/std@v0.35.0/flags/mod.ts'
+import { writeFileStrSync, existsSync } from 'https://deno.land/std@v0.35.0/fs/mod.ts'
 import { templates, TemplateFile } from './src/templates.ts'
 
 const [componentType, moduleName, path] = parse(Deno.args)._
 
-const typeToDirectoryMap = {
+console.log(componentType)
+const typeToDirectoryMap: any = {
     atom: 'Atoms',
     molecule: 'Molecules',
     organism: 'Organisms',
@@ -18,7 +19,7 @@ if (!typeToDirectoryMap[componentType]) {
 
 const templateRegistry = templates(moduleName)
 
-Object.values(templateRegistry).forEach(({fileName, content}: TemplateFile) => {
+Object.values(templateRegistry).forEach(({ fileName, content }: TemplateFile) => {
     const pathToWriteFile = `${workingDir}/${path}`
     const finalPath = `${pathToWriteFile}/${typeToDirectoryMap[componentType]}/${moduleName}`
 
@@ -27,12 +28,8 @@ Object.values(templateRegistry).forEach(({fileName, content}: TemplateFile) => {
     } else {
         Deno.mkdirSync(finalPath, true)
 
-        writeFileStrSync(
-            `${finalPath}/${fileName}`,
-            content,
-        )
+        writeFileStrSync(`${finalPath}/${fileName}`, content)
     }
 })
 
 console.log(`✅ Successfully created ${moduleName}`)
-
