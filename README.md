@@ -18,10 +18,10 @@ Issues and PR's Welcome
 
 ## How to use
 
-The CLI takes 2 arguments; the type of module and the name of it.
+The CLI takes 3 arguments; the type of module, the name of it and the path to write to.
 
 ```bash
-    $ nucleus [atom | molecule | organism] MyAtomicComponent
+    $ nucleus [atom | molecule | organism] MyAtomicComponent path/to/component
 
     // ✅ Successfully created MyAtomicComponent
 ```
@@ -29,7 +29,7 @@ The CLI takes 2 arguments; the type of module and the name of it.
 **Example:**
 
 ```bash
-    $ nucleus atom Button
+    $ nucleus atom Button ./src/Atoms
 
     // ✅ Successfully created Button
 ```
