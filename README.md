@@ -22,8 +22,6 @@ If you want to specify where the binary gets installed, you can use the `--dir` 
 
 So the example command above might look something like this:
 
-MacOS:
-
 ```bash
   // MacOS
   $ deno install --allow-write --allow-read --dir /usr/local/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
