@@ -6,7 +6,7 @@ Issues and PR's Welcome
 
 ## Requirements
 
--   [Deno](https://deno.land/) v 0.35 or newer
+-   [Deno](https://deno.land/) v0.35 or newer
 
 ## Installing
 
