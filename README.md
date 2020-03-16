@@ -11,7 +11,7 @@ Issues and PR's Welcome
 ## Installing
 
 ```bash
-  $ deno install --allow-write --allow-read https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+  $ deno install --allow-write --allow-read nucleus https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
 
   // ✅ Successfully installed nucleus
 ```
@@ -24,10 +24,10 @@ So the example command above might look something like this:
 
 ```bash
   // MacOS
-  $ deno install --allow-write --allow-read --dir /usr/local/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+  $ deno install --allow-write --allow-read nucleus --dir /usr/local/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
   
   // Linux:
-  $ deno install --allow-write --allow-read --dir /usr/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+  $ deno install --allow-write --allow-read nucleus --dir /usr/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
 
   // ✅ Successfully installed nucleus
 ```
