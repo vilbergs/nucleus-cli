@@ -27,7 +27,7 @@ So the example command above might look something like this:
   $ deno install --allow-write --allow-read --dir /usr/local/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
   
   // Linux:
-   $ deno install --allow-write --allow-read --dir /usr/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+  $ deno install --allow-write --allow-read --dir /usr/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
 
   // ✅ Successfully installed nucleus
 ```
