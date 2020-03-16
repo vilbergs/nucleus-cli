@@ -11,7 +11,25 @@ Issues and PR's Welcome
 ## Installing
 
 ```bash
-  $ deno install --allow-write --allow-read --dir /usr/local/bin nucleus https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+  $ deno install --allow-write --allow-read https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+
+  // ✅ Successfully installed nucleus
+```
+
+### Specifying install directory
+
+If you want to specify where the binary gets installed, you can use the `--dir` (`-d`) flag.
+
+So the example command above might look something like this:
+
+MacOS:
+
+```bash
+  // MacOS
+  $ deno install --allow-write --allow-read --dir /usr/local/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
+  
+  // Linux:
+   $ deno install --allow-write --allow-read --dir /usr/bin https://raw.githubusercontent.com/vilbergs/nucleus-cli/master/cli.ts
 
   // ✅ Successfully installed nucleus
 ```
@@ -29,7 +47,7 @@ The CLI takes 3 arguments; the type of module, the name of it and the path to wr
 **Example:**
 
 ```bash
-    $ nucleus atom Button ./src/Atoms
+    $ nucleus atom Button ./src
 
     // ✅ Successfully created Button
 ```
