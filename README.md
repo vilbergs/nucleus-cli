@@ -32,6 +32,8 @@ So the example command above might look something like this:
   // ✅ Successfully installed nucleus
 ```
 
+To learn more, check out the `deno install` documentation: https://deno.land/std/manual.md#installing-executable-scripts
+
 ## How to use
 
 The CLI takes 3 arguments; the type of module, the name of it and the path to write to.
