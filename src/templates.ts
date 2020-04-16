@@ -13,7 +13,7 @@ interface Templates {
 export function templates(name: string): Templates {
     const indexFile = {
         fileName: `index.ts`,
-        content: `export { default } from \'./${name}\'`,
+        content: `export { default } from \'./${name}\'\n`,
     }
     const componentFile = {
         fileName: `${name}.tsx`,
